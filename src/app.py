@@ -12,6 +12,7 @@ def details():
         'time': datetime.datetime.now().strftime("%I:%M:%p on %B %d, %Y"),
         'hostname': socket.gethostname(),
         'message': 'you are doing great!!!!'
+        'runner': "self-hosted"
     })
 
 @app.route('/api/v1/healthz')
