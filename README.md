@@ -35,3 +35,8 @@ EOF
         #  chmod +x /tmp/argocd-${VERSION}
         #  sudo mv /tmp/argocd-${VERSION} /usr/local/bin/argocd 
         #  argocd version --client
+
+
+##backstage
+1 download node docker image 
+docker pull node:18-bookworm-slim
