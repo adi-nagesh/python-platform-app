@@ -26,3 +26,12 @@ spec:
     spec:
       repository: adi-nagesh/python-platform-app
 EOF
+
+
+
+
+        #  ARGOCD_VERSION=$(curl --silent "https://api.github.com/repos/argoproj/argo-cd/releases/latest" | grep '"tag_name"' | sed -E 's/.*"([^"]+)".*/\1/')
+        #  curl -sSL -o /tmp/argocd-${ARGOCD_VERSION} https://github.com/argoproj/argo-cd/releases/download/${ARGOCD_VERSION}/argocd-linux-amd64
+        #  chmod +x /tmp/argocd-${VERSION}
+        #  sudo mv /tmp/argocd-${VERSION} /usr/local/bin/argocd 
+        #  argocd version --client
