@@ -2,7 +2,7 @@ replicaCount: 1
 image:
   repository: adinagesh/python-app
   pullPolicy: IfNotPresent
-  tag: "9e611e"
+  tag: "2f5001"
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
